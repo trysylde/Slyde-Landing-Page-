@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Slyde – Smarter Public Transport</title>
+  <link rel="icon" type="image/png" href="https://yourdomain.com/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #008080, #20B2AA);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px 20px;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    img.mockup {
+      width: 90%;
+      max-width: 400px;
+      margin: 20px auto;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+    form {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      color: #333;
+    }
+    input[type="email"] {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 250px;
+      margin-right: 10px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #008080;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+    a.instagram {
+      color: white;
+      margin-top: 30px;
+      display: inline-block;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://yourdomain.com/logo.png" alt="Slyde Logo" style="width:150px; margin-bottom:20px;">
+    <h1>Welcome to Slyde</h1>
+    <p>The smarter way to ride public transport – predict crowd levels, find seats, and enjoy every journey.</p>
+    <img class="mockup" src="https://yourdomain.com/mockup.png" alt="Slyde App Mockup">
+    <form action="https://formspree.io/f/meogqkdp" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required>
+      <button type="submit">Join the Waitlist</button>
+    </form>
+    <a class="instagram" href="https://www.instagram.com/tryslydeapp" target="_blank">Follow us on Instagram</a>
+  </header>
+  <footer>
+    © 2025 Slyde. All rights reserved.
+  </footer>
+</body>
+</html>
